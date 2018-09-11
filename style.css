@@ -1287,8 +1287,8 @@ body,
 .cke_contents ul li {
 	position: relative;
 	counter-increment: bck-li-counter;
-	padding-left: 30px;
-    padding-bottom: 4px;
+	padding-left: 35px;
+    padding-bottom: 0px;
     padding-top: 6px;
     font-weight: 600;
 }
@@ -1316,9 +1316,11 @@ body,
 	background: none;
 	color: #D7DF21;
 	font-size: 2.3rem;
-	text-align: center;
+	text-align: right;
 	line-height: 2.4rem;
 	font-family: sans-serif;
+	width: 26px;
+        left: 2px;
 }
 
 .texto_curso ol.bck-ol2 li:before,
