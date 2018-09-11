@@ -53,7 +53,7 @@
 				{ name: 'Icono Question', element: 'span', attributes: { 'class': 'icon icon-question' } },
 				{ name: 'Icono Recortar', element: 'span', attributes: { 'class': 'icon icon-recortar' } },
 				{ name: 'Icono Pegar', element: 'span', attributes: { 'class': 'icon icon-pegar' } },
-				{ name: 'Icono Unir Lápiz', element: 'span', attributes: { 'class': 'icon icon-unirlapiz' } },
+				{ name: 'Icono Unir Lápiz', element: 'span', attributes: { 'class': 'icon icon-unir' } },
 				{ name: 'Icono Actuar', element: 'span', attributes: { 'class': 'icon icon-actuar' } },
 				{ name: 'Icono Dibujar', element: 'span', attributes: { 'class': 'icon icon-dibujar' } },
 				{ name: 'Icono Cantar', element: 'span', attributes: { 'class': 'icon icon-cantar' } }
