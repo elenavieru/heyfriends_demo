@@ -1255,6 +1255,12 @@ body,
 
 /* Lists */
 
+.texto_curso ol.bck-ol1 li,
+.workspace ul li ol.bck-ol1 li,
+.cke_contents ol.bck-ol1 li {
+    background: #F7F9DF;
+}
+
 .texto_curso ol,
 .workspace ul li ol,
 .cke_contents ol {
@@ -1271,7 +1277,9 @@ body,
 	position: relative;
 	counter-increment: bck-li-counter;
 	padding-left: 30px;
-    padding-bottom: 2px;
+    padding-bottom: 4px;
+    padding-top: 6px;
+    font-weight: 600;
 }
 
 .texto_curso ol li:before,
@@ -1294,20 +1302,24 @@ body,
 	-webkit-border-radius: 50%;
 	   -moz-border-radius: 50%;
 	        border-radius: 50%;
-	background: #A23D97;
-	color: #fff;
-	font-size: 1.6rem;
+	background: none;
+	color: #D7DF21;
+	font-size: 2.3rem;
 	text-align: center;
 	line-height: 2.4rem;
+	font-family: sans-serif;
 }
 
 .texto_curso ol.bck-ol2 li:before,
 .workspace ul li ol.bck-ol2 li:before,
 .cke_contents ol.bck-ol2 li:before {
-    content: counter(bck-li-counter) ".";
+    content: counter(bck-li-counter);
     left: 0;
     width: 25px;
     text-align: right;
+    color: #D7DF21;
+    font-family: sans-serif;
+    font-weight: 500;
 }
 
 .texto_curso ul.bck-ul1 li:before,
@@ -2276,7 +2288,6 @@ body,
 
 .item-container .icon-escuchar:before {
 	background-image: url(imagenes/icono_escuchar.jpg);
-
 }
 
 .item-container .icon-lupa:before {
