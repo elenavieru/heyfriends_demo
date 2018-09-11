@@ -21,10 +21,6 @@
 
 /* General Styles */
 
-#actividad .content .header.empty {
-    display: none;
-}
-
 body,
 .texto_curso,
 #actividad .pregunta .texto_curso {
@@ -2424,7 +2420,7 @@ body,
 .item-container .icon-recortar:before {
 	background-image: url(imagenes/icono_recortar.jpg);
 }
-.item-container .icon-unir:before {
+.item-container .icon-unirlapiz:before {
 	background-image: url(imagenes/icono_unirlapiz.jpg);
 }
 
