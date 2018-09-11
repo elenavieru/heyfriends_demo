@@ -1054,19 +1054,75 @@ body,
 }
 
 .bck-title1 {
-	color: #A0A01A;
-	font-weight: 600;
+    color: #BED62F;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+.bck-title2 {
+    color: #FFCB08;
+    font-weight: 600;
+    font-size: 2.5rem;
+
+}
+.bck-title3 {
+    color: #6B8CC7;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+.bck-title4 {
+    background: #AFB4DB;
+    padding: 10px;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    width: 50%;
+    font-size: 3.5rem;
+    border-radius: 10px;
+    margin-left: 25%;
+}
+.bck-title5 {
+    background: #00ADE6;
+    padding: 10px;
+    color: #F3F4AE;
+    font-weight: 600;
+    text-align: center;
+    width: 50%;
+    font-size: 3.5rem;
+    border-radius: 10px;
+    margin-left: 25%;
+}
+.bck-title6 {
+    background: #ED0281;
+    padding: 10px;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    width: 50%;
+    font-size: 3.5rem;
+    border-radius: 10px;
+    margin-left: 25%;
+}
+.bck-title7 {
+    background: #FDB813;
+    padding: 10px;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    width: 50%;
+    font-size: 3.5rem;
+    border-radius: 10px;
+    margin-left: 25%;
+}
+.bck-title8 {
+    color: #fff;
+    font-weight: 600;
+    background: #1BBED7;
+    padding: 9px;
+    border-radius: 20px;
+    width: 50%;
+    border: 3px dotted #F3C208;
 }
 
-.bck-enfasis {
-	color: #B769AF;
-	font-weight: 600;
-}
-
-.bck-enfasis2 {
-	color: #F0433A;
-	font-weight: 600;
-}
 
 .bck-example {
 	color: #4BB5E5;
