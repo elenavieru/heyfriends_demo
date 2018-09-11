@@ -2284,7 +2284,12 @@ body,
 #actividad .player.audio {
 	background: url(imagenes/icono_audio.png) center center / cover;
 }
-
+#actividad .content img.player, #actividad .player.audio, #actividad .player.video, #help-panel-content .player, #remote-alert-modal-rich .player{
+   height: 30px !important;
+    width: 37px;
+    border-radius: 0;
+    margin: 0;
+}
 
 .item-container .icon:before {
 	content: "";
