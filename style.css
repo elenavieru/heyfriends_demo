@@ -2270,32 +2270,33 @@ body,
 	background-position: center center;
 	display: inline-block;
 	vertical-align: middle;
-	height: 25px;
-	width: 25px;
+    height: 38px;
+    width: 40px;
 }
 
-.item-container .icon-lapiz:before {
-	background-image: url(iconos/lapiz.png);
+.item-container .icon-escuchar:before {
+	background-image: url(imagenes/icono_escuchar.jpg);
+
 }
 
-.item-container .icon-lapiz1:before {
-	background-image: url(iconos/lapiz1.png);
+.item-container .icon-lupa:before {
+	background-image: url(imagenes/icono_lupa.jpg);
 }
 
-.item-container .icon-lapiz2:before {
-	background-image: url(iconos/lapiz2.png);
+.item-container .icon-leer:before {
+	background-image: url(imagenes/icono_leer.jpg);
 }
 
-.item-container .icon-lapiz3:before {
-	background-image: url(iconos/lapiz3.png);
+.item-container .icon-travieso:before {
+	background-image: url(imagenes/icono_travieso.jpg);
 }
 
-.item-container .icon-conversation:before {
-	background-image: url(iconos/conversacion.png);
+.item-container .icon-check:before {
+	background-image: url(imagenes/icono_check.jpg);
 }
 
-.item-container .icon-conversation1:before {
-	background-image: url(iconos/conversacion1.png);
+.item-container .icon-circulo:before {
+	background-image: url(imagenes/icono_circulo.jpg);
 }
 
 .item-container .icon-conversation2:before {
