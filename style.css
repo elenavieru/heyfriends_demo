@@ -21,6 +21,10 @@
 
 /* General Styles */
 
+#actividad .content .header.empty {
+    display: none;
+}
+
 body,
 .texto_curso,
 #actividad .pregunta .texto_curso {
@@ -2385,29 +2389,45 @@ body,
 	background-image: url(imagenes/icono_circulo.jpg);
 }
 
-.item-container .icon-conversation2:before {
-	background-image: url(iconos/conversacion2.png);
+.item-container .icon-conversacion:before {
+	background-image: url(imagenes/icono_conversacion.jpg);
 }
 
-.item-container .icon-conversation3:before {
-	background-image: url(iconos/conversacion3.png);
+.item-container .icon-A:before {
+	background-image: url(imagenes/icono_A.jpg);
 }
 
-.item-container .icon-cloud:before {
-	background-image: url(iconos/cloud.png);
+.item-container .icon-2:before {
+	background-image: url(imagenes/icono_2.jpg);
 }
 
-.item-container .icon-cloud1:before {
-	background-image: url(iconos/cloud1.png);
+.item-container .icon-actuar:before {
+	background-image: url(imagenes/icono_actuar.jpg);
 }
 
-.item-container .icon-cloud2:before {
-	background-image: url(iconos/cloud2.png);
+.item-container .icon-cantar:before {
+	background-image: url(imagenes/icono_cantar.jpg);
 }
 
-.item-container .icon-cloud3:before {
-	background-image: url(iconos/cloud3.png);
+.item-container .icon-casa:before {
+	background-image: url(imagenes/icono_casa.jpg);
 }
+.item-container .icon-dibujar:before {
+	background-image: url(imagenes/icono_dibujar.jpg);
+}
+.item-container .icon-pegar:before {
+	background-image: url(imagenes/icono_pegar.jpg);
+}
+.item-container .icon-question:before {
+	background-image: url(imagenes/icono_question.jpg);
+}
+.item-container .icon-recortar:before {
+	background-image: url(imagenes/icono_recortar.jpg);
+}
+.item-container .icon-unir:before {
+	background-image: url(imagenes/icono_unirlapiz.jpg);
+}
+
 
 /* Forms */
 
