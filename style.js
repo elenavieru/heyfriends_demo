@@ -14,15 +14,20 @@
 			name: 'heyfriends_demo',
 			styles: [
 
-				{ name: 'Título 1', element: 'h4', attributes: { 'class': 'bck-title1'} },
-
-				{ name: 'Énfasis', element: 'span', attributes: { 'class': 'bck-enfasis' }},
-				{ name: 'Énfasis2', element: 'span', attributes: { 'class': 'bck-enfasis2' }},
+				{ name: 'Título verde', element: 'h4', attributes: { 'class': 'bck-title1'} },
+				{ name: 'Título amarillo', element: 'h4', attributes: { 'class': 'bck-title2'} },
+				{ name: 'Título azul', element: 'h4', attributes: { 'class': 'bck-title3'} },
+				{ name: 'Título guess', element: 'h4', attributes: { 'class': 'bck-title4'} },
+				{ name: 'Título wendy', element: 'h4', attributes: { 'class': 'bck-title5'} },
+				{ name: 'Título CLIL', element: 'h4', attributes: { 'class': 'bck-title6'} },
+				{ name: 'Título Cool', element: 'h4', attributes: { 'class': 'bck-title7'} },
+				{ name: 'Título Project', element: 'h4', attributes: { 'class': 'bck-title8'} },
 
 				{ name: 'Ejemplo', element: 'span', attributes: { 'class': 'bck-example' }},
 
 				{ name: 'Lista ordenada1', element: 'ol', attributes: { 'class': 'bck-ol1' } },
 				{ name: 'Lista ordenada2', element: 'ol', attributes: { 'class': 'bck-ol2' } },
+				{ name: 'Lista ordenada3', element: 'ol', attributes: { 'class': 'bck-ol3' } },
 
 				{ name: 'Lista desordenada', element: 'ul', attributes: { 'class': 'bck-ul1' } },
 				{ name: 'Lista desordenada2', element: 'ul', attributes: { 'class': 'bck-ul2' } },
@@ -34,26 +39,25 @@
 
 				{ name: 'Caja1', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-1' } },
 				{ name: 'Caja2', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-2' } },
-				{ name: 'Título Caja 2', element: 'span', attributes: { 'class': 'box-title-secondary' } },
-				{ name: 'Caja3', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-3' } },
-				{ name: 'Caja4', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-4' } },
-				{ name: 'Caja5', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-5' } },
-				{ name: 'Caja6', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-6' } },
-				{ name: 'Caja7', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-7' } },
-				{ name: 'Caja8', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-8' } },
 
-				{ name: 'Icono Lápiz', element: 'span', attributes: { 'class': 'icon icon-lapiz' } },
-				{ name: 'Icono Lápiz1', element: 'span', attributes: { 'class': 'icon icon-lapiz1' } },
-				{ name: 'Icono Lápiz2', element: 'span', attributes: { 'class': 'icon icon-lapiz2' } },
-				{ name: 'Icono Lápiz3', element: 'span', attributes: { 'class': 'icon icon-lapiz3' } },
-				{ name: 'Icono Conversación', element: 'span', attributes: { 'class': 'icon icon-conversation' } },
-				{ name: 'Icono Conversación1', element: 'span', attributes: { 'class': 'icon icon-conversation1' } },
-				{ name: 'Icono Conversación2', element: 'span', attributes: { 'class': 'icon icon-conversation2' } },
-				{ name: 'Icono Conversación3', element: 'span', attributes: { 'class': 'icon icon-conversation3' } },
-				{ name: 'Icono Cloud', element: 'span', attributes: { 'class': 'icon icon-cloud' } },
-				{ name: 'Icono Cloud1', element: 'span', attributes: { 'class': 'icon icon-cloud1' } },
-				{ name: 'Icono Cloud2', element: 'span', attributes: { 'class': 'icon icon-cloud2' } },
-				{ name: 'Icono Cloud3', element: 'span', attributes: { 'class': 'icon icon-cloud3' } }
+
+				{ name: 'Icono Escuchar', element: 'span', attributes: { 'class': 'icon icon-escuchar' } },
+				{ name: 'Icono Lupa', element: 'span', attributes: { 'class': 'icon icon-lupa' } },
+				{ name: 'Icono Leer', element: 'span', attributes: { 'class': 'icon icon-leer' } },
+				{ name: 'Icono Travieso', element: 'span', attributes: { 'class': 'icon icon-travieso' } },
+				{ name: 'Icono Check', element: 'span', attributes: { 'class': 'icon icon-check' } },
+				{ name: 'Icono Conversación', element: 'span', attributes: { 'class': 'icon icon-conversacion' } },
+				{ name: 'Icono A', element: 'span', attributes: { 'class': 'icon icon-A' } },
+				{ name: 'Icono 2', element: 'span', attributes: { 'class': 'icon icon-2' } },
+				{ name: 'Icono Círculo', element: 'span', attributes: { 'class': 'icon icon-circulo' } },
+				{ name: 'Icono Question', element: 'span', attributes: { 'class': 'icon icon-question' } },
+				{ name: 'Icono Recortar', element: 'span', attributes: { 'class': 'icon icon-recortar' } },
+				{ name: 'Icono Pegar', element: 'span', attributes: { 'class': 'icon icon-pegar' } },
+				{ name: 'Icono Unir Lápiz', element: 'span', attributes: { 'class': 'icon icon-unirlapiz' } },
+				{ name: 'Icono Actuar', element: 'span', attributes: { 'class': 'icon icon-actuar' } },
+				{ name: 'Icono Dibujar', element: 'span', attributes: { 'class': 'icon icon-dibujar' } },
+				{ name: 'Icono Cantar', element: 'span', attributes: { 'class': 'icon icon-cantar' } }
+
 			]
 		},
 
