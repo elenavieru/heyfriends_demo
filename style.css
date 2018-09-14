@@ -59,7 +59,7 @@ body,
 }
 
 #actividad .content .header.empty {
-    border-top: 0;
+    border-top: 20px;
     display: none;
 }
 
