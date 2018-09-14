@@ -59,7 +59,7 @@ body,
 }
 
 #actividad .content .header.empty {
-    display: none;
+    opacity:0;
 }
 
 #actividad .content .ultima .header {
@@ -1043,7 +1043,7 @@ body,
 
 .slide_main,
 .cke_inner {
-	padding: 50px 70px !important;
+	padding: 0 70px !important;
 }
 
 .final .slide_main,
