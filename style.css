@@ -2343,9 +2343,10 @@ body,
 }
 #actividad .content img.player, #actividad .player.audio, #actividad .player.video, #help-panel-content .player, #remote-alert-modal-rich .player{
    height: 30px !important;
-    width: 37px;
+    width: 36px;
     border-radius: 0;
     margin: 0;
+    margin-right: 5px;
 }
 
 .item-container .icon:before {
