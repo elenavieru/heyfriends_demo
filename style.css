@@ -60,6 +60,7 @@ body,
 
 #actividad .content .header.empty {
     opacity:0;
+    height: 10px;
 }
 
 #actividad .content .ultima .header {
