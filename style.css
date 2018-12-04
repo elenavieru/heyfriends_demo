@@ -649,6 +649,7 @@ body,
     text-shadow: 1px 2px #999, 3px 0 #999, 0 1px #999;
     -webkit-text-fill-color: #fff;
     -webkit-text-stroke: 1px #333;
+    font-family: 'MarkinLTPro-UltraBold';
 }
 
 #actividad .content .ultima .header .title h3 {
@@ -1375,7 +1376,7 @@ body,
 	font-size: 2.3rem;
 	text-align: right;
 	line-height: 2.4rem;
-	font-family: sans-serif;
+	font-family: 'FuturaLTPro-Bold';
 	width: 26px;
         left: 2px;
 }
