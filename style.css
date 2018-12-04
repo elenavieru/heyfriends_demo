@@ -1,17 +1,17 @@
 /* Fonts */
 @font-face {
-	font-family: 'andy_regular';
-	src: url(fonts/AndyStd-Regular.otf) format("opentype");
+	font-family: 'AvenirLTPro-Heavy';
+	src: url(fuentes/AvenirLTPro-Heavy.otf) format("opentype");
 }
 
 @font-face {
-	font-family: 'andy_bold';
-	src: url(fonts/AndyStd-Bold.otf) format("opentype");
+	font-family: 'FuturaLTPro-Bold';
+	src: url(fuentes/FuturaLTPro-Bold.otf) format("opentype");
 }
 
 @font-face {
-	font-family: 'andy_italic';
-	src: url(fonts/AndyStd-Italic.otf) format("opentype");
+	font-family: 'MarkinLTPro-UltraBold';
+	src: url(fuentes/MarkinLTPro-UltraBold.otf) format("opentype");
 }
 
 @font-face {
