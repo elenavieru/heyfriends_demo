@@ -25,6 +25,7 @@ body,
 .texto_curso,
 #actividad .pregunta .texto_curso {
 	font-size: 1.8rem;
+	font-family: 'AvenirLTPro-Heavy';
 }
 
 #swipeview-slider > div > .item {
@@ -52,6 +53,7 @@ body,
     width: 50%;
     margin-top: 15px;
     padding: 5px;
+    font-family: 'MarkinLTPro-UltraBold';
 }
 
 #actividad .content .slide-concatenate .header {
