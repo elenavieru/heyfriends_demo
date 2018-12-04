@@ -26,6 +26,12 @@
 
 /* General Styles */
 
+#actividad .class_slide {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
 body,
 .texto_curso,
 #actividad .pregunta .texto_curso {
@@ -78,7 +84,6 @@ body,
 
 #actividad .content .header .title {
 	background: transparent;
-	padding-left: 40px;
 }
 
 #actividad .content .header .slide_number {
@@ -649,10 +654,7 @@ body,
 #actividad .content .header .title h3 {
     margin: 0px;
     color: #fff;
-    font-size: 4.8rem;
-    font-weight: 700;
-    line-height: 6rem;
-    margin-left: -40px;
+    font-size: 4.8rem;;
     text-shadow: 1px 2px #999, 3px 0 #999, 0 1px #999;
     -webkit-text-fill-color: #fff;
     -webkit-text-stroke: 1px #333;
