@@ -15,6 +15,11 @@
 }
 
 @font-face {
+	font-family: 'AvenirLTPro-Medium';
+	src: url(fuentes/AvenirLTPro-Medium.otf) format("opentype");
+}
+
+@font-face {
 	font-family: 'andy_bold_italic';
 	src: url(fonts/AndyStd-BoldItalic.otf) format("opentype");
 }
@@ -25,7 +30,7 @@ body,
 .texto_curso,
 #actividad .pregunta .texto_curso {
 	font-size: 1.8rem;
-	font-family: 'AvenirLTPro-Heavy';
+	font-family: 'AvenirLTPro-Medium';
 }
 
 #swipeview-slider > div > .item {
