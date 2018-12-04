@@ -36,11 +36,10 @@ body:not(.android) .slider-control:not([disabled]):not(.disabled):hover{
     padding-right: 20px;
 }
 
-
 body,
 .texto_curso,
 #actividad .pregunta .texto_curso {
-	font-size: 1.8rem;
+	font-size: 1.9rem;
 	font-family: 'AvenirLTPro-Medium';
 }
 
@@ -1142,7 +1141,7 @@ body,
 
 .bck-example {
 	color: #4BB5E5;
-	font-family: 'andy_bold';
+	font-family: 'AvenirLTPro-Heavy';
 	font-size: 2.2rem;
 	font-weight: 600;
 }
@@ -2431,7 +2430,7 @@ display: none;
     border-bottom-color: #ccc;
     background-color: white;
     color: #4BB5E5;
-    font-family: 'andy_bold';
+    font-family: 'AvenirLTPro-Heavy';;
     font-size: 2.2rem;
     font-weight: 600;
 }
@@ -2457,26 +2456,26 @@ display: inline-block;
     -moz-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s, -moz-box-shadow ease-in-out .15s;
     transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
     transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s, -webkit-box-shadow ease-in-out .15s, -moz-box-shadow ease-in-out .15s;
-    font-family: 'andy_bold';
+    font-family: 'AvenirLTPro-Heavy';
     font-size: 2.2rem;
     font-weight: 600;
 }
 
 .slide_main input.respuesta_ko {
     border-color: #ef0c24;
-    font-family: 'andy_bold';
+    font-family: 'AvenirLTPro-Heavy';
     font-size: 2.2rem;
     font-weight: 600;
 }
 
 .texto_curso li input {
-    font-family: 'andy_bold';
+    font-family: 'AvenirLTPro-Heavy';
     font-size: 2.2rem;
     font-weight: 600;
 }
 
 #actividad textarea {
-    font-family: 'andy_bold';
+    font-family: 'AvenirLTPro-Heavy';
     font-size: 2.2rem;
     font-weight: 600;
 }
@@ -2484,7 +2483,7 @@ display: inline-block;
 .slide_main input.respuesta_ok {
     border-color: #74d320;
     background-color: #e9fed6;
-    font-family: 'andy_bold';
+    font-family: 'AvenirLTPro-Heavy';
     font-size: 2.2rem;
     font-weight: 600;
 }
