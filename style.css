@@ -26,6 +26,11 @@
 
 /* General Styles */
 
+
+body:not(.android) .slider-control:not([disabled]):not(.disabled):hover{
+    color: grey;
+}
+
 #actividad .class_slide {
     padding-left: 20px;
     padding-right: 20px;
@@ -1373,9 +1378,7 @@ body,
     font-weight: bold;
 }
 
-.texto_curso ol.bck-ol1 li:before,
-.workspace ul li ol.bck-ol1 li:before,
-.cke_contents ol.bck-ol1 li:before {
+.texto_curso ol.bck-ol1 li:before, .workspace ul li ol.bck-ol1 li:before, .cke_contents ol.bck-ol1 li:before {
 	height: 24px;
 	-webkit-border-radius: 50%;
 	   -moz-border-radius: 50%;
@@ -1386,8 +1389,9 @@ body,
 	text-align: right;
 	line-height: 2.4rem;
 	font-family: 'FuturaLTPro-Bold';
-	width: 26px;
-        left: 2px;
+	width: 32px;
+    left: -5px;
+    top: 5px
 }
 
 .texto_curso ol.bck-ol2 li:before,
